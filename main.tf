@@ -7,7 +7,7 @@ resource "aws_sns_topic" "standard_topic" {
 
   # The default message structure is "raw", if you want to use JSON structure, you can set it.
   # You can leave out the 'display_name' for a simple topic
-  display_name = "My Standard SNS Topic" 
+  display_name = "gaurav-standard-sns-topic" 
 
   # Optional attributes
   # delivery_policy = jsonencode({
