@@ -1,6 +1,6 @@
 variable "sns_topic_name" {
   description = "Name of the SNS Topic"
-  default     = "my-standard-sns-topic"
+  default     = "gaurav-standard-sns-topic"
 }
 
 variable "region" {
